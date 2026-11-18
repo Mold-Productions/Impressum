@@ -1,0 +1,244 @@
+<!doctype html>
+<!--
+MOLD PRODUCTIONS – IMPRESSUM & DATENSCHUTZ
+
+ANLEITUNG FÜR VISUAL STUDIO CODE
+1. Strg+F und nach "HIER EINTRAGEN" suchen: fehlende individuelle Daten ergänzen.
+2. Strg+F und nach "HIER PRÜFEN" suchen: tatsächliche Abläufe / rechtliche Annahmen bestätigen.
+3. WICHTIG: Vor Veröffentlichung sämtliche eckigen Klammern und gelben Platzhalter entfernen.
+4. Keine echten privaten Adressdaten an ChatGPT schicken. Nur lokal in VS Code eintragen.
+5. Keine fiktiven Firmenbuch-, UID- oder Unternehmensangaben ergänzen.
+6. Diese Vorlage ist KEINE anwaltliche Prüfung; Pflichtangaben richten sich nach tatsächlicher Tätigkeit.
+-->
+<html lang="de-AT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#07131e">
+  <meta name="description" content="Impressum, Offenlegung und Datenschutzhinweise von Mold Productions.">
+  <title>Impressum & Datenschutz | Mold Productions</title>
+  <link rel="icon" type="image/png" href="bewerbung-assets/images/logo-original.png">
+  <style>
+    :root{color-scheme:dark;--bg:#07131e;--panel:#0d2331;--panel2:#102a38;--text:#f3f8fc;--muted:#bad0dc;--line:rgba(181,224,231,.18);--cyan:#53d3cf;--blue:#2eb7db;--max:1120px}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:98px}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,"Segoe UI",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+    a{color:inherit;text-decoration:none}
+    a:focus-visible{outline:3px solid #74ede0;outline-offset:4px;border-radius:3px}
+    header{background:#07111b;border-bottom:1px solid rgba(210,243,246,.09)}
+    .head-inner{max-width:1200px;margin:auto;min-height:86px;padding:12px 24px;display:flex;justify-content:space-between;align-items:center;gap:25px}
+    .brand{display:flex;align-items:center;gap:13px;min-width:0}
+    .brand img{height:53px;width:53px;object-fit:contain;flex:none}
+    .brand-copy{display:grid;gap:5px}.brand-copy strong{font-size:1.18rem;letter-spacing:-.025em;white-space:nowrap}.brand-copy small{font-size:.58rem;letter-spacing:.18em;text-transform:uppercase;font-weight:850;color:#a5c5d3}
+    .main-nav{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+    .main-nav a{padding:12px 15px;border-radius:10px;font-size:.9rem;font-weight:730;color:#cad9e1;white-space:nowrap}
+    .main-nav a:hover{background:#1b2936;color:#fff}
+    main{min-height:75vh}
+    .container{max-width:var(--max);margin:auto;padding:0 24px}
+    .intro{padding:62px 0 35px;border-bottom:1px solid var(--line);background:radial-gradient(ellipse at 85% 0%,rgba(52,177,190,.12),transparent 50%)}
+    .eyebrow{margin:0 0 15px;text-transform:uppercase;letter-spacing:.17em;color:var(--cyan);font-size:.76rem;font-weight:850}
+    h1{font-size:clamp(2.8rem,5.3vw,4.9rem);line-height:1.08;letter-spacing:-.055em;margin:0 0 17px}
+    .lead{color:var(--muted);font-size:1.05rem;line-height:1.7;max-width:760px;margin:0 0 24px}
+    .tabs{display:flex;gap:10px;flex-wrap:wrap}.tabs a{padding:12px 20px;border:1px solid var(--line);border-radius:100px;font-weight:760;font-size:.9rem;background:#102432}
+    .tabs a:hover{background:#173745;border-color:#5adbd3}
+    section.legal{padding:52px 0 58px;scroll-margin-top:18px}
+    section.legal+section.legal{border-top:1px solid var(--line)}
+    .section-heading{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:24px}
+    h2{font-size:clamp(2rem,3.6vw,2.95rem);margin:0;letter-spacing:-.04em;line-height:1.13}
+    h3{font-size:1.16rem;line-height:1.35;margin:0 0 12px;letter-spacing:-.015em}
+    p{line-height:1.75} .muted{color:var(--muted)}
+    .tag{color:#a7c2d0;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;font-weight:800}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:25px 28px;min-width:0}
+    .card.wide{grid-column:1/-1}.card h3{color:#f3f8fc}.card p{margin:0;color:var(--muted)}
+    .card p+p{margin-top:11px}
+    .kicker{color:var(--cyan);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;font-weight:850;margin:0 0 11px}
+    .value{font-size:1.05rem;line-height:1.5;color:#f3f8fc!important;font-weight:650;overflow-wrap:anywhere}
+    .label{color:#a3bfd0;font-size:.82rem;display:block;margin-top:13px}
+    .placeholder{color:#ffcf93!important;font-weight:750}
+    .legal-list{margin:10px 0 0;padding-left:21px;color:var(--muted);line-height:1.7}
+    .legal-list li{margin:7px 0}
+    .content-block{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:28px 32px;margin:16px 0}
+    .content-block p{margin:0 0 12px;color:var(--muted)}.content-block p:last-child{margin-bottom:0}
+    .content-block a,.card a,.footer-inner a{color:#8eeadd;text-decoration:underline;text-underline-offset:3px}
+    .content-block a:hover,.card a:hover,.footer-inner a:hover{color:#c9fff7}
+    .info{background:#102b39;border:1px solid rgba(85,212,211,.28);padding:21px 24px;border-radius:13px;margin-top:20px;color:var(--muted);line-height:1.7}
+    .info strong{color:#f3f8fc}
+    footer{border-top:1px solid var(--line);padding:25px 0;color:#a9c0cd;font-size:.8rem}
+    .footer-inner{display:flex;gap:15px;justify-content:space-between;align-items:center;flex-wrap:wrap}
+    .foot-links{display:flex;gap:20px;flex-wrap:wrap}
+    @media(max-width:760px){.head-inner{padding:15px 18px;align-items:flex-start;flex-direction:column;gap:15px}.brand img{height:42px;width:42px}.brand-copy strong{font-size:1rem}.main-nav{gap:4px}.main-nav a{font-size:.84rem;padding:10px 12px}.main-nav .nav-primary{padding:11px 14px}.container{padding:0 18px}.intro{padding:40px 0 28px}.grid{grid-template-columns:1fr}.card.wide{grid-column:auto}.card{padding:22px 21px}.content-block{padding:23px 21px}.legal{padding:38px 0!important}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="head-inner">
+      <div class="brand" aria-label="Mold Productions">
+        <img src="bewerbung-assets/images/logo-original.png" alt="Logo von Mold Productions" width="53" height="53">
+        <span class="brand-copy"><strong>Mold Productions</strong><small>many ideas, one world.</small></span>
+      </div>
+      <nav class="main-nav" aria-label="Navigation">
+        <a href="#impressum">Impressum</a>
+        <a href="#datenschutz">Datenschutz</a>
+        <a href="https://linktr.ee/Mold_Productions" rel="noopener noreferrer" target="_blank">Unsere Links</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="intro">
+      <div class="container">
+        <p class="eyebrow">Mold Productions · Rechtliche Informationen</p>
+        <h1>Impressum &amp;<br>Datenschutz</h1>
+        <p class="lead">Informationen darüber, wer hinter Mold Productions steht und wie personenbezogene Daten auf unseren öffentlich zugänglichen Seiten, bei der Kontaktaufnahme und auf unseren Social-Media-Auftritten verarbeitet werden.</p>
+        <div class="tabs" aria-label="Direkt zu den rechtlichen Informationen">
+          <a href="#impressum">Impressum ansehen</a>
+          <a href="#datenschutz">Datenschutzerklärung ansehen</a>
+        </div>
+      </div>
+    </div>
+
+    <section class="legal" id="impressum" aria-labelledby="impressum-title">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="impressum-title">Impressum</h2>
+          <span class="tag">Anbieterkennzeichnung &amp; Offenlegung</span>
+        </div>
+        <div class="grid">
+          <div class="card">
+            <p class="kicker">Projekt / Bezeichnung</p>
+            <h3>Mold Productions</h3>
+            <p>Kreativprojekt im Aufbau. Unter der Bezeichnung Mold Productions besteht derzeit noch kein offiziell gegründetes Unternehmen.</p>
+          </div>
+          <div class="card">
+            <p class="kicker">Medieninhaber / Verantwortlicher</p>
+            <h3>Tobias Michael Mold</h3>
+            <p>Verantwortlich für die Inhalte dieses Internetauftritts.</p>
+          </div>
+          <div class="card">
+            <p class="kicker">Anschrift</p>
+            <!-- HIER EINTRAGEN 1/3: Deine zutreffende, rechtlich erforderliche Post-/Zustellanschrift. Nur lokal in VS Code ergänzen. -->
+            <p class="value placeholder">Ahornweg 10, 3485 Kamp</p>
+            <span class="label">Niederösterreich, Österreich</span>
+          </div>
+          <div class="card">
+            <p class="kicker">Kontakt</p>
+            <h3>E-Mail</h3>
+            <p class="value"><a href="mailto:mold.productions.office@gmail.com">mold.productions.office@gmail.com</a></p>
+            <!-- HIER PRÜFEN 1/4: Ob für deinen konkret ausgeübten Dienst neben E-Mail eine zusätzliche schnelle Kontaktmöglichkeit erforderlich ist.
+                 Die öffentliche Telefonnummer der bisherigen Seite wird aus Datenschutzgründen NICHT automatisch übernommen.
+                 Falls nötig, den folgenden Block mit geeigneten Kontaktdaten verwenden und den Kommentar entfernen. -->
+            <!-- HIER EINTRAGEN (optional/nach rechtlicher Prüfung):
+            <p class="label">Weitere Kontaktmöglichkeit</p>
+            <p class="value placeholder">[HIER EINTRAGEN: erreichbare Kontaktdaten]</p>
+            -->
+          </div>
+          <div class="card wide">
+            <p class="kicker">Offenlegung gemäß § 25 Mediengesetz</p>
+            <h3>Medieninhaber, Tätigkeitsbereich und grundlegende Richtung</h3>
+            <p><strong>Medieninhaber:</strong> Tobias Michael Mold.</p>
+            <!-- HIER EINTRAGEN 2/3: Tatsächliche Gemeinde/Wohnort oder Sitz für die Offenlegung. -->
+            <p><strong>Wohnort / Sitz:</strong> <span class="placeholder">Grafenegg</span>, Niederösterreich, Österreich.</p>
+            <p><strong>Tätigkeitsbereich:</strong> Entwicklung und Präsentation kreativer Projekte in den Bereichen Bücher, Film, Videoproduktion, Software und Technik.</p>
+            <p><strong>Grundlegende Richtung:</strong> Information über Mold Productions, seine Projekte, Veröffentlichungen, das Team und Mitwirkungsmöglichkeiten. Beiträge zum kreativen Schaffen und zur Projektentwicklung.</p>
+          </div>
+          <div class="card wide">
+            <p class="kicker">Hinweise zur Organisation</p>
+            <h3>Status von Mold Productions</h3>
+            <p>Mold Productions ist gegenwärtig ein Projekt und noch kein offiziell gegründetes Unternehmen. Eine mögliche spätere Unternehmensgründung wird hier nicht als bereits erfolgt dargestellt. Firmenbuchnummer, Firmenbuchgericht und UID werden deshalb nicht als vorhandene Unternehmensangaben ausgewiesen.</p>
+            <p>Dieses Impressum gilt für die öffentlich zugänglichen GitHub-Pages-Seiten von Mold Productions (Impressum und Team-/Mitmachseite) sowie für die von uns betriebenen Auftritte auf YouTube, Instagram und TikTok. Ein leicht auffindbarer Zugang muss auf jedem jeweiligen Profil gesondert sichergestellt werden.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="legal" id="datenschutz" aria-labelledby="datenschutz-title">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="datenschutz-title">Datenschutzerklärung</h2>
+          <span class="tag">Stand: November 2026</span>
+        </div>
+        <p class="lead">Diese Datenschutzhinweise gelten für unsere GitHub-Pages-Seiten, die Kontaktaufnahme über E-Mail und unsere Social-Media-Auftritte. Sie beschreiben die unten genannten Verarbeitungen nach dem derzeit bekannten Stand.</p>
+
+        <article class="content-block">
+          <h3>1. Verantwortlicher und Kontakt</h3>
+          <p>Verantwortlicher für die hier beschriebenen eigenen Verarbeitungen ist Tobias Michael Mold, Mold Productions. Die Kontaktdaten und Anschrift stehen im <a href="#impressum">Impressum</a>. Fragen zum Datenschutz können an <a href="mailto:mold.productions.office@gmail.com">mold.productions.office@gmail.com</a> gerichtet werden.</p>
+        </article>
+
+        <article class="content-block">
+          <h3>2. Besuch der Website und Hosting</h3>
+          <p>Unsere öffentlich zugänglichen Seiten werden über <strong>GitHub Pages</strong> bereitgestellt, einen Dienst von GitHub, Inc. Beim Abruf einer Seite werden technisch erforderliche Verbindungsdaten verarbeitet. Laut GitHub wird die IP-Adresse von Besuchenden aus Sicherheitsgründen protokolliert, auch wenn sie nicht bei GitHub angemeldet sind. Weitere technische Daten können für die Auslieferung und Sicherheit der Website erforderlich sein.</p>
+          <p>Zwecke sind die Bereitstellung, Sicherheit und technische Funktionsfähigkeit des Webangebots. Als Rechtsgrundlage für unsere eigenen hierfür erforderlichen Verarbeitungsvorgänge kommt Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einem sicheren und funktionierenden Webauftritt) in Betracht. Die eigenständigen Verarbeitungen von GitHub richten sich zusätzlich nach den Informationen des Anbieters. Eine Verarbeitung außerhalb der EU bzw. des EWR kann nicht ausgeschlossen werden.</p>
+          <p>Informationen des Anbieters: <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">Datenschutzhinweise von GitHub</a> und <a href="https://docs.github.com/de/pages/getting-started-with-github-pages/what-is-github-pages" target="_blank" rel="noopener noreferrer">Informationen zu GitHub Pages</a>.</p>
+        </article>
+
+        <article class="content-block">
+          <h3>3. Cookies, Analyse und externe Inhalte</h3>
+          <!-- HIER PRÜFEN 2/4: Trifft dies auf die tatsächlich veröffentlichte index.html, Bewerbung.html und alle weiteren Seiten zu? -->
+          <p>Auf den derzeit von uns veröffentlichten GitHub-Pages-Seiten setzen wir nach bisherigem technischen Stand <strong>selbst keine eigenen Analyse- oder Werbetracker</strong> ein und verwenden keine eingebetteten Tracking-Pixel. Bilder und die Darstellung werden aus den zum Webangebot gehörenden Dateien geladen.</p>
+          <p>Das ist keine Aussage darüber, welche technisch notwendigen Daten der Hosting-Dienst oder externe Zielseiten selbst verarbeiten. Bei späteren Änderungen (zum Beispiel Analysewerkzeugen, eingebetteten Videos oder extern geladenen Schriftarten) muss diese Datenschutzerklärung aktualisiert und gegebenenfalls eine Einwilligung eingeholt werden.</p>
+        </article>
+
+        <article class="content-block">
+          <h3>4. E-Mail-Kontakt und Mitwirkungsanfragen</h3>
+          <p>Wenn du uns eine E-Mail schreibst, verarbeiten wir die von dir mitgeteilten Angaben, insbesondere Absenderadresse, Name (sofern genannt), Nachrichteninhalt und gegebenenfalls übermittelte Dateien, um die Anfrage zu bearbeiten und darauf zu antworten. Bei Anfragen zur Mitarbeit gehören dazu auch Angaben über gewünschte Aufgaben und Erfahrungen, sofern du sie freiwillig mitteilst.</p>
+          <p>Die Verarbeitung erfolgt abhängig vom Anlass auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (Bearbeitung von Kontaktanfragen) und, soweit es um die Anbahnung einer konkreten Zusammenarbeit geht, gegebenenfalls auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO.</p>
+          <p>Für den E-Mail-Verkehr wird ein Gmail-Postfach von Google verwendet. Dabei können Daten durch Google verarbeitet werden; internationale Übermittlungen sind möglich. Weitere Informationen: <a href="https://policies.google.com/privacy?hl=de" target="_blank" rel="noopener noreferrer">Datenschutzerklärung von Google</a>.</p>
+          <!-- HIER EINTRAGEN 3/3: Wirklich angewendete Löschfristen und Ablauf für Anfragen und Mitwirkungsanfragen festlegen und hier konkret angeben. -->
+          <p>Kontakt- und Mitwirkungsanfragen speichern wir für die Bearbeitung und gegebenenfalls zur Dokumentation vereinbarter Zusammenarbeit. Daten, die wir nicht mehr benötigen und für die keine rechtliche Aufbewahrungspflicht besteht, löschen wir. <span class="placeholder">Allgemeine Kontaktanfragen löschen wir, sobald sie vollständig bearbeitet wurden und die Daten nicht mehr benötigt werden, spätestens jedoch 30 Tage nach Abschluss der Bearbeitung. Mitwirkungsanfragen löschen wir spätestens 30 Tage nach einer Absage oder Rücknahme. Kommt eine Zusammenarbeit zustande, speichern wir die dafür erforderlichen Daten nur so lange, wie sie benötigt werden. Gesetzliche Aufbewahrungspflichten bleiben davon unberührt.</span></p>
+          <p>Die Bereitstellung der Angaben erfolgt freiwillig. Ohne eine erreichbare Absenderadresse und die für die Anfrage erforderlichen Informationen können wir die Anfrage gegebenenfalls nicht beantworten. Eine ausschließlich automatisierte Entscheidung oder Profilbildung im Sinne des Art. 22 DSGVO findet bei der Bearbeitung dieser Anfragen nicht statt.</p>
+        </article>
+
+        <article class="content-block">
+          <h3>5. Externe Links und Linktree</h3>
+          <p>Unsere Seiten verlinken unter anderem auf Linktree, YouTube, Instagram und TikTok. Das Anklicken eines Links führt zu einer fremden Website beziehungsweise App. Für die dortige Verarbeitung personenbezogener Daten ist der jeweilige Anbieter nach seinen geltenden Datenschutzbestimmungen verantwortlich. Wir können diese Verarbeitung nicht vollständig beeinflussen.</p>
+          <p>Der Linktree von Mold Productions ist unter <a href="https://linktr.ee/Mold_Productions" target="_blank" rel="noopener noreferrer">linktr.ee/Mold_Productions</a> erreichbar. Die Datenschutzhinweise des Anbieters stehen unter <a href="https://linktr.ee/s/privacy" target="_blank" rel="noopener noreferrer">Linktree Privacy</a>.</p>
+        </article>
+
+        <article class="content-block">
+          <h3>6. Social-Media-Auftritte</h3>
+          <p>Mold Productions nutzt Social-Media-Plattformen, um über Projekte zu informieren, Videos zu veröffentlichen und Nachrichten oder Kommentare zu erhalten. Wenn du dort mit uns interagierst, können wir deinen öffentlich sichtbaren Profilnamen und die Inhalte deiner Nachricht beziehungsweise deines Kommentars sehen und zur Kommunikation verarbeiten. Rechtsgrundlage für unsere eigene Kommunikation ist regelmäßig Art. 6 Abs. 1 lit. f DSGVO, bei konkreten Anfragen zur Zusammenarbeit gegebenenfalls zusätzlich Art. 6 Abs. 1 lit. b DSGVO.</p>
+          <!-- HIER PRÜFEN 3/4: Tatsächlich verwendete Statistikfunktionen / professionelle Konten bei Instagram, TikTok und YouTube. -->
+          <p>Die Plattformbetreiber verarbeiten Daten außerdem nach ihren eigenen Bestimmungen, etwa zur technischen Bereitstellung, Reichweitenmessung und für personalisierte Funktionen. Bei den Instagram-Statistikfunktionen kann hinsichtlich bestimmter Insights-Daten eine gemeinsame Verantwortlichkeit nach Art. 26 DSGVO bestehen. Die hierfür vorgesehene Vereinbarung von Meta ist unten verlinkt. Die jeweils konkret genutzten Kontofunktionen sind bei Änderungen zu überprüfen.</p>
+          <ul class="legal-list">
+            <li><a href="https://privacycenter.instagram.com/policy/" target="_blank" rel="noopener noreferrer">Meta / Instagram – Datenschutzrichtlinie</a></li>
+            <li><a href="https://www.facebook.com/legal/terms/page_controller_addendum" target="_blank" rel="noopener noreferrer">Meta – Vereinbarung zur gemeinsamen Verantwortlichkeit (soweit einschlägig)</a></li>
+            <li><a href="https://www.tiktok.com/legal/page/eea/privacy-policy/de" target="_blank" rel="noopener noreferrer">TikTok – Datenschutzhinweise für den EWR</a></li>
+            <li><a href="https://policies.google.com/privacy?hl=de" target="_blank" rel="noopener noreferrer">Google / YouTube – Datenschutzerklärung</a></li>
+          </ul>
+        </article>
+
+        <article class="content-block">
+          <h3>7. Fotos, Videos und Teamvorstellungen</h3>
+          <p>Auf unserer Team-/Mitmachseite und unseren Social-Media-Auftritten veröffentlichen wir Fotos und Videos zu Projekten, Veranstaltungen und Personen, die an unseren Inhalten mitwirken. Dabei können erkennbare Bild- und Tonaufnahmen sowie gegebenenfalls Namen und Rollen personenbezogene Daten sein. Wir achten auf die erforderlichen Veröffentlichungsrechte und gegebenenfalls auf entsprechende Einwilligungen.</p>
+          <p>Beruht eine Veröffentlichung auf einer Einwilligung, kann diese hinsichtlich der künftigen Verarbeitung widerrufen werden. Bereits erfolgte Verarbeitungen bleiben davon im gesetzlich vorgesehenen Umfang unberührt. Für Anliegen zur Veröffentlichung kannst du uns über die Kontaktadresse im Impressum erreichen.</p>
+        </article>
+
+        <article class="content-block">
+          <h3>8. Speicherdauer und Empfänger</h3>
+          <p>Personenbezogene Angaben aus Anfragen werden grundsätzlich nicht länger aufbewahrt als für den jeweiligen Zweck erforderlich. Technische Protokolldaten verarbeitet der Hosting-Anbieter nach seinen eigenen Regelungen. Als Empfänger beziehungsweise beteiligte Anbieter kommen insbesondere GitHub (Hosting), Google (E-Mail, YouTube) sowie beim Besuch entsprechender Profile Meta und TikTok in Betracht.</p>
+          <p>Eine Übertragung in Staaten außerhalb des Europäischen Wirtschaftsraums kann bei diesen Diensten stattfinden. Welche Schutzmechanismen und konkreten Speicherfristen gelten, richtet sich auch nach dem jeweiligen Anbieter und sollte anhand der aktuellen Verträge und Datenschutzinformationen überprüft werden.</p>
+        </article>
+
+        <article class="content-block">
+          <h3>9. Deine Datenschutzrechte</h3>
+          <p>Nach Maßgabe der DSGVO hast du insbesondere Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch gegen Verarbeitungen, die auf berechtigten Interessen beruhen. Soweit eine Verarbeitung auf Einwilligung beruht, kannst du diese jederzeit mit Wirkung für die Zukunft widerrufen.</p>
+          <p>Du kannst uns dazu unter der oben genannten E-Mail-Adresse kontaktieren. Du hast außerdem das Recht, dich bei der <a href="https://www.dsb.gv.at/" target="_blank" rel="noopener noreferrer">österreichischen Datenschutzbehörde</a> zu beschweren.</p>
+        </article>
+
+        <!-- HIER PRÜFEN 4/4: Ob neue Dienste, Analysefunktionen, Einbettungen, Newsletter oder andere Verarbeitungsvorgänge hinzugekommen sind. -->
+        <div class="info">
+          <strong>Aktualität:</strong> Diese Informationen beschreiben die derzeit verwendeten Dienste. Werden neue Tools, eingebettete Inhalte, weitere Funktionen oder andere Verarbeitungen eingesetzt, aktualisieren wir die Datenschutzhinweise entsprechend.
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container footer-inner">
+      <span>Mold Productions · many ideas, one world.</span>
+      <div class="foot-links"><a href="#impressum">Impressum</a><a href="#datenschutz">Datenschutz</a></div>
+    </div>
+  </footer>
+</body>
+</html>
